@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?j5sp4j');
+  src:  url('fonts/icomoon.eot?j5sp4j#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?j5sp4j') format('truetype'),
+    url('fonts/icomoon.woff?j5sp4j') format('woff'),
+    url('fonts/icomoon.svg?j5sp4j#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-mail:before {
+  content: "\e903";
+}
+
+
+
+
 body{
   font-family: 'Archivo Narrow', sans-serif;
 }
@@ -7,6 +49,7 @@ body{
 }
 .main-container{
   margin-top: 8%;
+  margin-bottom: 8%;
 }
 .quote{
 
@@ -28,5 +71,8 @@ nav .logo{
 }
 
 .site-header nav{
+  background: #90a4ae;
+}
+body .page-footer{
   background: #90a4ae;
 }
